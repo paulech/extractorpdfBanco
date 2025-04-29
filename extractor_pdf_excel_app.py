@@ -6,7 +6,7 @@ from io import BytesIO
 
 st.set_page_config(page_title="Extractor Bancario PDF → Excel", layout="centered")
 st.title("🔍 Extractor de Datos de Extractos Bancarios")
-st.markdown("Carga tu PDF bancario (Galicia, BBVA, etc.), y descargá un Excel con los movimientos organizados y totalizados por concepto.")
+st.markdown("Bro!!! Carga tu PDF bancario (Galicia, BBVA, etc.), y descargá un Excel con los movimientos organizados y totalizados por concepto.")
 
 uploaded_file = st.file_uploader("📄 Subí tu archivo PDF", type="pdf")
 
